@@ -20,7 +20,7 @@ public:
 
         std::cout << "\n----------------------";
         std::cout << "\nEnter array elements";
-        std::cout << "\n----------------------";
+        std::cout << "\n----------------------\n";
         
         for (i = 0; i < n; ++i) {
             std::cout << "<" << (i + 1) << ">";
