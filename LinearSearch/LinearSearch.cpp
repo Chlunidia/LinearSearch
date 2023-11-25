@@ -57,3 +57,11 @@ public:
         } while (ch == 'y' || ch == 'Y');
     }
 };
+
+int main() {
+    LinearSearch myList;
+    myList.input();
+    myList.linearSearch();
+
+    return 0;
+}
